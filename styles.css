@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: aquamarine;
+  background-color: white;
 }
 
 a {
@@ -73,4 +73,40 @@ nav a {
 nav a:hover {
   text-decoration: none;
   color: #f72210;
+}
+
+.section-heading {
+  padding: 10px 0;
+  color: gray;
+  font-weight: 500;
+}
+
+img {
+  width: 100%;
+}
+
+.featured-stories-heading {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.featured-stories-paragraph {
+  color: gray;
+  font-size: 16px;
+  padding: 10px 0 20px 0;
+}
+
+#more-stories img {
+  width: 80px;
+  height: 80px;
+  padding: 5px;
+}
+
+#opinion img {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 50%;
 }
