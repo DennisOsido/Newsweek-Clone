@@ -56,6 +56,7 @@ svg {
 
 nav {
   background-color: white;
+  padding: 12.5px 0;
 }
 
 nav ul {
@@ -89,6 +90,11 @@ img {
   width: 100%;
 }
 
+#section-1 {
+  padding-top: 22px;
+  border-top: 1px solid rgb(160, 160, 160);
+}
+
 .featured-stories-heading {
   color: black;
   font-size: 20px;
@@ -103,14 +109,18 @@ img {
 }
 
 #more-stories img {
-  width: 80px;
-  height: 80px;
+  width: 25%;
+  height: 25%;
+  /* width: 80px; */
+  /* height: 80px; */
   padding: 5px;
 }
 
 #opinion img {
-  width: 80px;
-  height: 80px;
+  width: 25%;
+  height: 25%;
+  /* width: 80px; */
+  /* height: 80px; */
   padding: 10px;
   border-radius: 50%;
 }
@@ -164,4 +174,25 @@ img {
   color: gray;
   font-size: 14px;
   padding: 10px 0 20px 0;
+}
+
+.latest-news-heading {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.latest-news-img {
+  width: 30%;
+  height: 100px;
+  padding: 10px 10px 10px 0;
+}
+
+#newsletter {
+  padding: 10%;
+}
+
+#newsletter img {
+  width: 80%;
 }
