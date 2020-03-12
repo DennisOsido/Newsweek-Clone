@@ -60,14 +60,14 @@ nav {
 }
 
 nav ul {
-  padding: 10px;
+  padding: 10px 0;
 }
 
 nav li {
   font-size: 18px;
   font-weight: 600;
   border-right: 1px solid gray;
-  padding: 0 20px;
+  padding: 0 16px 0 6px;
 }
 
 nav a {
@@ -78,6 +78,19 @@ nav a {
 nav a:hover {
   text-decoration: none;
   color: #f72210;
+}
+
+@media screen and (max-width: 992px) and (min-width: 0px) {
+  nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1366px) and (min-width: 993px) {
+  nav li {
+    padding: 0 8px 0 3px;
+  }
+  
 }
 
 .section-heading {
