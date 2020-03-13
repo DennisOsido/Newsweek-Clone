@@ -32,7 +32,7 @@ svg {
   height: 60px;
 }
 
-#header-left-1 {
+.header-left-1 {
   font-size: 18px;
   padding-top: 10px;
   color: white;
@@ -43,18 +43,18 @@ svg {
   padding-top: 10px;
 }
 
-#header-right {
+.header-right {
   padding-top: 30px;
   text-align: right;
 }
 
-#header-right-1 {
+.header-right-1 {
   color: white;
   font-size: 20px;
   padding-left: 8%;
 }
 
-#header-right-2 {
+.header-right-2 {
   color: #f72210;
   background-color: white;
   font-size: 20px;
@@ -116,7 +116,7 @@ nav a:hover {
     padding: 0 8px 0 0;
   }
 
-  #header-right {
+  .header-right {
     padding: 0;
   }
 
@@ -124,13 +124,13 @@ nav a:hover {
     padding: 0 10px;
   }
 
-  #header-right-1 {
+  .header-right-1 {
     color: white;
     font-size: 20px;
     padding: 0 10px 0 0;
   }
 
-  #header-right-2 {
+  .header-right-2 {
     font-size: 20px;
     padding-right: 10px;
   }
