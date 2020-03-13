@@ -180,18 +180,18 @@ img {
 }
 
 #more-stories img {
-  width: 25%;
-  height: 25%;
-  /* width: 80px; */
-  /* height: 80px; */
+  /* width: 25%;
+  height: 25%; */
+  width: 80px;
+  height: 80px;
   padding: 5px;
 }
 
 #opinion img {
   width: 25%;
   height: 25%;
-  /* width: 80px; */
-  /* height: 80px; */
+  width: 80px;
+  height: 80px;
   padding: 10px;
   border-radius: 50%;
 }
