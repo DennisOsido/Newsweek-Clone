@@ -171,7 +171,7 @@ img {
   width: 100%;
 }
 
-#section-1 {
+.section-div {
   padding-top: 22px;
   border-top: 1px solid rgb(160, 160, 160);
 }
@@ -274,18 +274,13 @@ img {
   width: 100%;
 }
 
-#in-the-magazine {
+.section-main-heading {
   width: 200px;
   height: 50px;
   right: 42%;
   position: absolute;
 }
 
-#in-the-magazine-div {
+.section-main-heading-div {
   padding-bottom: 50px;
-}
-
-#section-2 {
-  padding: 20px 0;
-  border-top: 1px solid rgb(160, 160, 160);
 }
