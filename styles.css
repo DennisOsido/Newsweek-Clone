@@ -340,3 +340,7 @@ footer h4 {
     margin-top: 20px;
   }
 }
+
+#footer-3 a {
+  color: gray;
+}
