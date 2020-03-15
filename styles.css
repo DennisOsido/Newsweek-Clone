@@ -284,3 +284,17 @@ img {
 .section-main-heading-div {
   padding-bottom: 50px;
 }
+
+.section-5-heading {
+  color: #f72210;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.section-5-heading-filler {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
