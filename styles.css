@@ -152,6 +152,11 @@ nav a:hover {
     width: 50px;
     height: 220px;
   }
+
+  #footer-img-2 {
+    width: 65%;
+    height: 275px;
+  }
 }
 
 /* Header for Mobile */
