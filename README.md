@@ -36,6 +36,9 @@ Contributions, issues and feature requests are welcome! Start by:
 Feel free to check the [issues page](https://github.com/DennisOsido/Newsweek-Clone/issues).
 
 ## Attributions and Credit
+
+https://meyerweb.com/eric/tools/css/reset/ for CSS Reset Stylesheet
+
 The readme format was taken from Mr. Tolulope Olusakinin which is one of our TSE's in Microverse.
 
 ## Show your support
