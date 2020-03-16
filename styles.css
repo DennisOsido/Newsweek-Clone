@@ -356,7 +356,7 @@ footer h4 {
   background: black;
 }
 
-#debate-margin {
+.debate-margin {
   margin-left: 42%;
 }
 
@@ -448,4 +448,15 @@ footer h4 {
 #footer-img-2 {
   width: 180px;
   height: 200px;
+}
+
+/* Breakpoint for Editors-Pick */
+@media screen and (min-width: 992px) {
+  #editor-break-1 {
+    display: none;
+  }
+
+  #editor-break-2 {
+    display: none;
+  }
 }
