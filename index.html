@@ -103,7 +103,7 @@
           </div>
           <div>
             <a class="header-left-1" href="#">
-              <div style="display: flex;">
+              <div class="header-flex">
                 <i class="fa fa-bolt"></i>
                 <p id="header-paragraph-1">29°</p>
                 <p id="header-paragraph-2">Manila, PH ></p>
@@ -680,17 +680,77 @@
               </div>
             </div>
           </div>
+
           <h1 class="section-heading">THE DEBATE</h1>
-          <div id="the-debate">
-            <a
-              href="https://www.newsweek.com/coronavirus-epidemic-economy-united-kingdom-nigel-farage-boris-johnson-1491302"
-              ><img class="debate-img" src="img/debate-1.png" alt=""
-            /></a>
-            <a
-              href="https://www.newsweek.com/coronavirus-epidemic-economy-lives-livelihoods-1491545"
-              ><img class="debate-img" src="img/debate-2.png" alt=""
-            /></a>
+          <div id="debate-border-red" class="d-flex">
+            <img
+              class="latest-news-img"
+              src="https://d.newsweek.com/en/full/1572572/farage-johnson-corona.webp?w=397&h=265&f=21391dc808b8d22a74101528562b16ab"
+              alt=""
+            />
+            <div>
+              <a
+                href="https://www.newsweek.com/coronavirus-epidemic-economy-united-kingdom-nigel-farage-boris-johnson-1491302"
+                ><h1 class="latest-news-heading">
+                  Protecting Us All From an Epidemic Should Be Prioritized Over
+                  the Economy
+                </h1></a
+              >
+            </div>
           </div>
+          <div class="d-flex">
+            <div>
+              <a href="https://www.newsweek.com/authors/nigel-farage"
+                ><h1 class="debate-heading">
+                  BY NIGEL FARAGE
+                </h1></a
+              >
+            </div>
+            <div id="debate-margin">
+              <img
+                class="latest-news-img"
+                src="https://d.newsweek.com/en/full/1563625/nigel-farage.webp?w=150&h=150&f=2ae37ecc11a3397b627c243707faa3cb"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center py-3">
+            <div id="vs">VS</div>
+          </div>
+
+          <div id="debate-border-blue" class="d-flex">
+            <img
+              class="latest-news-img"
+              src="https://d.newsweek.com/en/full/1572870/coronavirus-italy.webp?w=397&h=265&f=8ca9dfc141dab16b9c9b3d959364a854"
+              alt=""
+            />
+            <div>
+              <a
+                href="https://www.newsweek.com/coronavirus-epidemic-economy-lives-livelihoods-1491545"
+                ><h1 class="latest-news-heading">
+                  In This Fight Against Coronavirus, We Need to Protect Both Lives and Livelihoods
+                </h1></a
+              >
+            </div>
+          </div>
+          <div class="d-flex">
+            <div>
+              <a href="https://www.newsweek.com/coronavirus-epidemic-economy-lives-livelihoods-1491545"
+                ><h1 class="debate-heading">
+                  BY ASAD HAMIR
+                </h1></a
+              >
+            </div>
+            <div id="debate-margin">
+              <img
+                class="latest-news-img"
+                src="https://d.newsweek.com/en/full/1572873/asad-hamir.webp?w=150&h=150&f=116b04f6ce04832db4f41612232f8c29"
+                alt=""
+              />
+            </div>
+          </div>
+
           <h1 class="section-heading">LATEST NEWS</h1>
           <div class="d-flex">
             <img
@@ -1742,7 +1802,9 @@
               ></a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/company/newsweek"><i class="fa fa-2x fa-envelope-square"></i></a>
+              <a href="https://www.linkedin.com/company/newsweek"
+                ><i class="fa fa-2x fa-envelope-square"></i
+              ></a>
             </li>
           </ul>
         </div>
@@ -1753,9 +1815,13 @@
       <div class="d-flex">
         <h2 class="p-2">Editions:</h2>
         <ul class="d-flex">
-          <li class="p-2"><a href="https://www.newsweek.com/">U.S. Edition</a></li>
+          <li class="p-2">
+            <a href="https://www.newsweek.com/">U.S. Edition</a>
+          </li>
           <li class="p-2"><a href="https://www.newsweekjapan.jp/">日本</a></li>
-          <li class="p-2"><a href="http://newsweekpakistan.com/">Pakistan</a></li>
+          <li class="p-2">
+            <a href="http://newsweekpakistan.com/">Pakistan</a>
+          </li>
           <li class="p-2"><a href="https://www.newsweek.pl/">Polska</a></li>
           <li class="p-2"><a href="https://newsweek.ro/">România</a></li>
         </ul>
@@ -1763,23 +1829,51 @@
 
       <div class="d-flex">
         <ul class="d-flex">
-          <li class="p-2 border-right"><a href="https://www.newsweek.com/about-newsweek">About Us</a></li>
-          <li class="p-2 border-right"><a href="https://www.newsweek.com/corrections">Corrections</a></li>
-          <li class="p-2 border-right"><a href="https://www.newsweek.com/contact">Contact Us</a></li>
-          <li class="p-2 border-right"><a href="https://www.newsweek.com/editorial-guidelines">Editorial Guidelines</a></li>
-          <li class="p-2 border-right"><a href="https://www.newsweek.com/advertise">Advertise</a></li>
-          <li class="p-2 border-right"><a href="https://www.newsweek.com/copyright">Copyright</a></li>
-          <li class="p-2 border-right"><a href="https://www.newsweek.com/terms-service">Terms & Conditions</a></li>
-          <li class="p-2 border-right"><a href="https://www.newsweek.com/privacy-policy">Privacy Policy</a></li>
+          <li class="p-2 border-right">
+            <a href="https://www.newsweek.com/about-newsweek">About Us</a>
+          </li>
+          <li class="p-2 border-right">
+            <a href="https://www.newsweek.com/corrections">Corrections</a>
+          </li>
+          <li class="p-2 border-right">
+            <a href="https://www.newsweek.com/contact">Contact Us</a>
+          </li>
+          <li class="p-2 border-right">
+            <a href="https://www.newsweek.com/editorial-guidelines"
+              >Editorial Guidelines</a
+            >
+          </li>
+          <li class="p-2 border-right">
+            <a href="https://www.newsweek.com/advertise">Advertise</a>
+          </li>
+          <li class="p-2 border-right">
+            <a href="https://www.newsweek.com/copyright">Copyright</a>
+          </li>
+          <li class="p-2 border-right">
+            <a href="https://www.newsweek.com/terms-service"
+              >Terms & Conditions</a
+            >
+          </li>
+          <li class="p-2 border-right">
+            <a href="https://www.newsweek.com/privacy-policy">Privacy Policy</a>
+          </li>
         </ul>
       </div>
 
       <div class="d-flex">
         <ul class="d-flex">
-          <li class="p-2 border-right"><a href="https://www.newsweek.com/cookie-policy">Cookie Policy</a></li>
-          <li class="p-2 border-right"><a href="https://www.newsweek.com/terms-sale">Terms of Sale</a></li>
-          <li class="p-2 border-right"><a href="https://www.newsweek.com/archive">Archive</a></li>
-          <li class="p-2 border-right"><a href="https://www.newsweek.com/announcements">Announcements</a></li>
+          <li class="p-2 border-right">
+            <a href="https://www.newsweek.com/cookie-policy">Cookie Policy</a>
+          </li>
+          <li class="p-2 border-right">
+            <a href="https://www.newsweek.com/terms-sale">Terms of Sale</a>
+          </li>
+          <li class="p-2 border-right">
+            <a href="https://www.newsweek.com/archive">Archive</a>
+          </li>
+          <li class="p-2 border-right">
+            <a href="https://www.newsweek.com/announcements">Announcements</a>
+          </li>
           <li class="p-2 border-right"><a href="#">Consent preferences</a></li>
         </ul>
       </div>

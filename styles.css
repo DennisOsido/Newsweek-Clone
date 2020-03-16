@@ -150,11 +150,6 @@ nav a:hover {
     padding-left: 5px;
   }
 
-  .debate-img {
-    width: 600px;
-    height: 250px;
-  }
-
   #newsletter img {
     width: 50px;
     height: 220px;
@@ -343,4 +338,39 @@ footer h4 {
 
 #footer-3 a {
   color: gray;
+}
+
+.header-flex {
+  display: flex;
+}
+
+#debate-border-red {
+  border-top: 3px solid #f72210;
+}
+
+#debate-border-blue {
+  border-top: 3px solid blue;
+}
+
+#vs {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(190, 190, 190);
+  line-height: 40px;
+  text-align: center;
+  background: black;
+}
+
+#debate-margin {
+  margin-left: 42%;
+}
+
+.debate-heading {
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 10px;
 }
