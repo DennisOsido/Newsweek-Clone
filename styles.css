@@ -398,6 +398,12 @@ footer h4 {
   border: solid 1px gray;
 }
 
+.footer-1 h2 {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 0 10px 20px 10px;
+}
+
 #newsletter h2 {
   font-size: 18px;
   font-weight: 700;
@@ -412,4 +418,33 @@ footer h4 {
 
 #newsletter a {
   text-decoration: none;
+}
+
+.footer-1 {
+  background-color: rgb(235, 235, 235);
+  padding: 20px;
+}
+
+.footer-1 p {
+  font-size: 16px;
+  color: gray;
+  padding: 5px 10px 15px 10px;
+}
+
+.btn-danger {
+  background: #f72210;
+}
+
+.subscribe {
+  margin-left: 10px;
+}
+
+#footer-img-1 {
+  width: 200px;
+  height: 200px;
+}
+
+#footer-img-2 {
+  width: 180px;
+  height: 200px;
 }
