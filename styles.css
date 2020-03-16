@@ -150,14 +150,13 @@ nav a:hover {
     padding-left: 5px;
   }
 
-  #newsletter img {
-    width: 50px;
-    height: 220px;
-  }
-
   #footer-img-2 {
     width: 65%;
     height: 275px;
+  }
+
+  #newsletter {
+    width: 50% !important;
   }
 }
 
@@ -273,14 +272,6 @@ img {
   padding: 10px 10px 10px 0;
 }
 
-#newsletter {
-  padding: 20px;
-}
-
-#newsletter img {
-  width: 100%;
-}
-
 .section-main-heading {
   width: 200px;
   height: 50px;
@@ -373,4 +364,52 @@ footer h4 {
   font-size: 12px;
   font-weight: 600;
   padding-top: 10px;
+}
+
+#n-icon {
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  line-height: 35px;
+  text-align: center;
+  background: #f72210;
+  margin-right: 10px;
+}
+
+#sign-up {
+  width: 100px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  line-height: 35px;
+  text-align: center;
+  background: rgb(90, 90, 90);
+  margin: 15px 0;
+}
+
+#newsletter {
+  margin: 20px 0;
+  padding: 20px;
+  width: 70%;
+  background-color: rgb(235, 235, 235);
+  border: solid 1px gray;
+}
+
+#newsletter h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+#newsletter h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(60, 60, 60);
+}
+
+#newsletter a {
+  text-decoration: none;
 }
