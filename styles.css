@@ -1,6 +1,5 @@
 .container {
   max-width: 1366px;
-  min-width: 600px;
 }
 
 body {
@@ -158,10 +157,6 @@ nav a:hover {
 
   #newsletter {
     width: 50% !important;
-  }
-
-  .debate-margin {
-    margin-left: 75%;
   }
 }
 
@@ -361,7 +356,7 @@ footer h4 {
 }
 
 .debate-margin {
-  margin-left: 60%;
+  margin-left: 47%;
 }
 
 .debate-heading {
@@ -519,5 +514,17 @@ footer h4 {
 @media screen and (max-width: 399px) and (min-width: 320px) {
   .section-main-heading {
     left: 190px;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .debate-margin {
+    margin-left: 78%;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 1px) {
+  .debate-margin {
+    margin-left: 70%;
   }
 }
