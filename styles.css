@@ -159,6 +159,10 @@ nav a:hover {
   #newsletter {
     width: 50% !important;
   }
+
+  .debate-margin {
+    margin-left: 75%;
+  }
 }
 
 /* Header for Mobile */
@@ -357,7 +361,7 @@ footer h4 {
 }
 
 .debate-margin {
-  margin-left: 42%;
+  margin-left: 60%;
 }
 
 .debate-heading {
@@ -394,7 +398,7 @@ footer h4 {
 #newsletter {
   margin: 20px 0;
   padding: 20px;
-  width: 70%;
+  width: 80%;
   background-color: rgb(235, 235, 235);
   border: solid 1px gray;
 }
@@ -458,5 +462,62 @@ footer h4 {
 
   #editor-break-2 {
     display: none;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  #newsletter {
+    width: 40% !important;
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 321px) {
+  #newsletter {
+    width: 40% !important;
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 320px) and (min-width: 1px) {
+  #newsletter {
+    width: 70% !important;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 1366px) and (min-width: 992px) {
+  .section-main-heading {
+    right: 44%;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .section-main-heading {
+    right: 41%;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 600px) {
+  .section-main-heading {
+    right: 38%;
+  }
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+  .section-main-heading {
+    right: 210px;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 400px) {
+  .section-main-heading {
+    right: 80px;
+  }
+}
+
+@media screen and (max-width: 399px) and (min-width: 320px) {
+  .section-main-heading {
+    left: 190px;
   }
 }
